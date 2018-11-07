@@ -1,0 +1,41 @@
+svg {
+    width: 100%;
+  }
+  
+  .house {
+    background: rgb(184, 251, 253);
+  }
+  
+  rect,
+  circle,
+  .circlegroup,
+  polygon {
+    transition: all 0.5s ease;
+  }
+  
+  
+  circle:hover,
+  .circlegroup:hover {
+    fill: red;
+  }
+
+  .cloud {
+    height: 50%;
+    width: 50%;
+  }
+  path {
+    fill: rgb(255, 255, 255);
+    stroke: rgb(25, 81, 155);
+    stroke-width: 2;
+    stroke-linejoin: round;
+  }
+  path:hover {
+    fill: rgb(255, 248, 240);
+    stroke: rgb(171, 250, 135);
+  }
+
+  .face{
+    fill: gold;
+  }
+
+    
